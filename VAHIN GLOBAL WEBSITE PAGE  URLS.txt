@@ -16,3 +16,8 @@ https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/S4%20Sanna
 S-273 Wrinkle Red Chilli
 https://vge1109.github.io/vge-aboutus/S-273%20Wrinkle%20Red%20Chilli.html
 https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/S-273%20Wrinkle%20Red%20Chilli.jpeg
+
+--------------------------------------
+Byadgi-Red-Chilli.html
+https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Byadgi%20Red%20Chilli.jpg
+https://vge1109.github.io/vge-aboutus/Byadgi-Red-Chilli.html
