@@ -1,181 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coriander Seeds | Vahin Global Exports</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-    <!-- META TAGS -->
-    <meta name="title" content="Premium Indian Coriander Seeds | Vahin Global Exports">
-    <meta name="description" content="Vahin Global Exports supplies high-quality Indian coriander seeds—whole, split, and premium graded. Hygienically processed, sorted, and packed for global export.">
+  <title>Coriander Seeds — Premium Indian Quality | Vahin Global Exports</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #e7f7ff;
-            margin: 0;
-            padding: 0;
-            line-height: 1.7;
-            font-size: 20px;
-            color: #00334e;
-        }
+  <meta name="title" content="Coriander Seeds — Whole, Split & Organic | Vahin Global Exports" />
+  <meta name="description" content="Premium Indian coriander seeds sourced from leading spice-growing regions. Whole, split, and organic grades—cleaned, graded, hygienically packed, and suitable for global export. Contact: info@vahinglobalexports.com • +91-9542935425" />
 
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-        }
+  <style>
+    :root{
+      --aqua:#00a8d4;
+      --aqua-dark:#007a9a;
+      --muted:#5f6b70;
+      --bg:#f5fbfc;
+      --card:#ffffff;
+      --accent:#00c0e8;
+      --glass:rgba(255,255,255,0.75);
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-size:18px;
+      background:linear-gradient(180deg,var(--bg),#ecf9fc);
+      color:#0f1720;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.55;
+    }
+    .container{max-width:1100px;margin:36px auto;padding:28px}
+    header{display:flex;align-items:center;gap:18px}
+    .logo{width:66px;height:66px;border-radius:12px;background:linear-gradient(135deg,var(--aqua),var(--accent));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:20px}
+    h1{font-size:30px;margin:0;color:var(--aqua-dark);line-height:1.15}
+    .sub{color:var(--muted);margin-top:6px;font-size:15px}
 
-        h1, h2 {
-            color: #006b8f;
-            margin-bottom: 10px;
-        }
+    .hero{display:grid;grid-template-columns:1fr 460px;gap:20px;margin-top:26px}
+    .card{background:var(--card);border-radius:14px;padding:20px;box-shadow:0 10px 25px rgba(9,30,40,0.06)}
+    .hero .intro{padding:20px}
+    .badge{display:inline-block;padding:7px 12px;border-radius:999px;background:linear-gradient(90deg,var(--aqua),var(--accent));color:#fff;font-weight:700;font-size:14px}
+    .lead{font-size:17px;color:#072a30;margin:14px 0 18px}
 
-        img {
-            width: 100%;
-            max-height: 420px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
+    .features{display:flex;gap:10px;flex-wrap:wrap}
+    .feature{background:var(--glass);padding:10px 12px;border-radius:9px;font-size:15px;color:#03323f;font-weight:600}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 25px 0;
-            font-size: 19px;
-        }
+    .img-wrap{display:flex;flex-direction:column;gap:14px;align-items:center}
+    .product-img{width:100%;height:360px;border-radius:12px;object-fit:cover;background:#e8fbff;box-shadow:0 6px 18px rgba(2,40,50,0.04)}
 
-        table th, table td {
-            border: 1px solid #0093b8;
-            padding: 12px 15px;
-        }
+    .specs{margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:12px;border-bottom:1px solid #eef5f6;text-align:left;font-size:15px}
+    th{background:transparent;color:var(--aqua-dark);font-weight:700}
 
-        table th {
-            background-color: #aee9ff;
-        }
+    .section{margin-top:24px}
+    .packs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    .pill{display:inline-block;padding:7px 12px;border-radius:999px;background:#f0fdff;border:1px solid #d8f5fb;color:var(--aqua-dark);font-weight:700}
 
-        .section-title {
-            margin-top: 35px;
-            font-size: 27px;
-            font-weight: bold;
-            color: #004a66;
-        }
+    ul{padding-left:20px;margin-top:8px}
+    li{margin-bottom:8px}
 
-        .contact-box {
-            background: #c2f1ff;
-            padding: 20px;
-            border-left: 5px solid #008db3;
-            margin-top: 40px;
-            font-size: 20px;
-        }
-    </style>
+    footer{margin-top:28px;padding:14px;border-radius:12px;background:linear-gradient(90deg,rgba(0,168,212,0.06),rgba(0,192,232,0.04));display:flex;justify-content:space-between;align-items:center}
+
+    @media (max-width:980px){
+      .hero{grid-template-columns:1fr}
+      .product-img{height:260px}
+      .specs{grid-template-columns:1fr}
+    }
+  </style>
 </head>
 
 <body>
-    <div class="container">
+  <div class="container">
 
-        <h1>Coriander Seeds – Aromatic Heritage of India</h1>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">VG</div>
+      <div>
+        <h1>Coriander Seeds — Aromatic Indian Spice Heritage</h1>
+        <div class="sub">Premium-grade coriander seeds with rich aroma and natural freshness — cleaned, sorted, and prepared for global markets.</div>
+      </div>
+    </header>
 
-        <img src="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Coriander%20Seeds.jpg" alt="Coriander Seeds">
+    <!-- HERO -->
+    <div class="hero">
+      <div class="card intro">
+        <span class="badge">Coriander Seeds</span>
 
-        <p>
-            Coriander Seeds (<i>Coriandrum sativum</i>) are among the oldest aromatic spices valued across global cuisines. 
-            Recognized for their warm citrus-like fragrance and subtle nutty flavor, they form an essential part of traditional 
-            and modern culinary preparations. 
+        <p class="lead">
+          Coriander Seeds (<i>Coriandrum sativum</i>) are among the oldest spices used across world cuisines. Known for their citrusy fragrance and warm flavor, they are essential in spice blends, seasonings, herbal remedies, and food processing industries.
+          Vahin Global Exports supplies premium Indian coriander sourced from leading spice belts including Rajasthan, Gujarat, and Madhya Pradesh.
         </p>
 
-        <p>
-            At <b>Vahin Global Exports</b>, we supply premium-grade Indian coriander seeds sourced from the fertile spice regions of 
-            Rajasthan, Gujarat, and Madhya Pradesh. Our seeds are naturally sun-dried, thoroughly cleaned, and hygienically handled 
-            to retain essential oils and maximum freshness.
-        </p>
-
-        <h2 class="section-title">Product Quality & Features</h2>
-
-        <p>
-            We offer coriander seeds in whole, split, and polished categories, classified into popular grades such as 
-            Double Parrot, Eagle, and Single Parrot. Every batch is processed with strict quality controls, ensuring excellent 
-            aroma retention, low moisture, uniform shape, and long shelf life – making them ideal for bulk export and long-distance shipping.
-        </p>
-
-        <p><b>All varieties are also available in certified organic quality.</b></p>
-
-        <h2 class="section-title">Coriander Seeds Specifications</h2>
-
-        <table>
-            <tr><th>Properties</th><th>Values & Limits</th></tr>
-            <tr><td>Product Name</td><td>Coriander Seeds</td></tr>
-            <tr><td>Quality</td><td>Eagle Whole & Split, Scooter, Single Parrot, Double Parrot, XO Quality</td></tr>
-            <tr><td>Cleaning</td><td>Machine Cleaned / Sortex Cleaned</td></tr>
-            <tr><td>Moisture</td><td>8% Max</td></tr>
-            <tr><td>Place of Origin</td><td>India</td></tr>
-            <tr><td>Split Seeds</td><td>4% Max</td></tr>
-            <tr><td>Flavor</td><td>Aromatic With a Strong Penetrating Flavor</td></tr>
-        </table>
-
-        <h2 class="section-title">Bulk Packaging Options</h2>
-
-        <table>
-            <tr><th>Types of Bags</th><th>Quantity</th></tr>
-            <tr><td>PP Bag</td><td>25kg / 50kg</td></tr>
-            <tr><td>BOPP Bag</td><td>25kg / 50kg Laminated Bag</td></tr>
-            <tr><td colspan="2">Customized & Private Label Packaging Available</td></tr>
-        </table>
-
-        <h2 class="section-title">Retail Packaging Options</h2>
-
-        <table>
-            <tr><th>Types of Bags</th><th>Quantity</th></tr>
-            <tr><td>Standard / Standup Pouch</td><td>100g / 250g / 500g / 1kg / 2kg with Zip Lock</td></tr>
-            <tr><td>BOPP Handle Bag</td><td>5kg / 10kg / 15kg</td></tr>
-            <tr><td colspan="2">Customized & Private Label Packaging Available</td></tr>
-        </table>
-
-        <h2 class="section-title">Container Capacity</h2>
-
-        <table>
-            <tr><th>Container Type</th><th>Quantity</th></tr>
-            <tr><td>20′ FT</td><td>09–10 Metric Tons</td></tr>
-            <tr><td>40′ FT</td><td>20–21 Metric Tons</td></tr>
-        </table>
-
-        <h2 class="section-title">Applications</h2>
-
-        <p>
-            <b>Culinary Use:</b> Spice blends, curry powders, pickles, marinades, roasting & grinding.<br>
-            <b>Food Industry:</b> Snacks, instant mixes, bakery, ready-to-eat foods.<br>
-            <b>Pharmaceutical & Wellness:</b> Digestive tonics, herbal teas, Ayurvedic formulations.<br>
-            <b>Cosmetic Industry:</b> Essential oils, natural skincare & haircare products.
-        </p>
-
-        <h2 class="section-title">Unique Selling Points</h2>
-        <ul>
-            <li>100% Natural & Sun-Dried</li>
-            <li>Strong Citrus Aroma & Flavor</li>
-            <li>Fully Cleaned, Zero Adulteration</li>
-            <li>Long Shelf Life, Consistent Quality</li>
-            <li>Processed in Globally Certified Facilities</li>
-        </ul>
-
-        <h2 class="section-title">Why Choose Vahin Global Exports?</h2>
-
-        <ul>
-            <li>Hygienic & Controlled Processing Units</li>
-            <li>Direct Procurement From Certified Farms</li>
-            <li>Custom Packaging & Bulk Order Solutions</li>
-            <li>Reliable Global Shipping Network</li>
-            <li>Commitment to Quality & Freshness</li>
-        </ul>
-
-        <div class="contact-box">
-            <b>Contact Us:</b><br>
-            📧 Email: info@vahinglobalexports.com<br>
-            📞 Phone: +91-95429 35425<br>
-            🌐 Vahin Global Exports
+        <div class="features">
+          <div class="feature">Strong Citrus Aroma</div>
+          <div class="feature">Naturally Sun-Dried</div>
+          <div class="feature">Machine & Sortex Cleaned</div>
+          <div class="feature">Whole, Split & Organic</div>
         </div>
 
+        <h3 style="margin-top:18px;color:#08303a">Quality & Processing</h3>
+        <p style="color:var(--muted);line-height:1.6">
+          Our coriander seeds undergo multi-stage cleaning, grading, and purity checks. Each batch is verified for aroma strength, moisture control, and physical uniformity, ensuring consistent export-ready quality.
+        </p>
+
+        <div class="section">
+          <h4 style="margin-bottom:8px;color:#05424a">Primary Uses</h4>
+          <ul>
+            <li>Base ingredient for spice blends and curry powders</li>
+            <li>Pickling, seasoning, and food processing applications</li>
+            <li>Herbal infusions, Ayurvedic preparations, and wellness formulas</li>
+            <li>Cosmetic & essential oil extraction</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h4 style="margin-bottom:8px;color:#05424a">Why Choose Vahin Global Exports?</h4>
+          <ul>
+            <li>Direct procurement from trusted coriander-growing regions</li>
+            <li>Modern cleaning, grading & quality control systems</li>
+            <li>Flexible export packaging & private-label support</li>
+            <li>Efficient logistics with global shipping capability</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- IMAGE -->
+      <aside class="img-wrap card">
+        <img id="productImage" class="product-img"
+             src="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Coriander%20Seeds.jpg"
+             alt="Coriander Seeds - Vahin Global Exports" />
+      </aside>
     </div>
+
+    <!-- SPECIFICATIONS & PACKAGING -->
+    <section class="specs card section">
+
+      <!-- SPECIFICATIONS COLUMN -->
+      <div>
+        <h3 style="margin-top:0;color:#05424a">Product Specifications</h3>
+        <table>
+          <tr><th>Property</th><th>Value / Limit</th></tr>
+          <tr><td>Product Name</td><td>Coriander Seeds</td></tr>
+          <tr><td>Grade Options</td><td>Eagle, Scooter, Single Parrot, Double Parrot, XO</td></tr>
+          <tr><td>Cleaning</td><td>Machine Cleaned / Sortex Cleaned</td></tr>
+          <tr><td>Moisture</td><td>≤ 8%</td></tr>
+          <tr><td>Split Seeds</td><td>≤ 4%</td></tr>
+          <tr><td>Flavor</td><td>Citrusy, warm, aromatic</td></tr>
+          <tr><td>Place of Origin</td><td>India</td></tr>
+          <tr><td>Appearance</td><td>Uniform size, natural color, high oil content</td></tr>
+        </table>
+      </div>
+
+      <!-- PACKAGING COLUMN -->
+      <div>
+        <h3 style="margin-top:0;color:#05424a">Packaging & Container Capacity</h3>
+
+        <h4 style="margin-bottom:6px">Bulk Packaging</h4>
+        <table>
+          <tr><th>Bag Type</th><th>Options</th></tr>
+          <tr><td>New PP Bag</td><td>25 kg / 50 kg</td></tr>
+          <tr><td>BOPP Laminated Bag</td><td>25 kg / 50 kg</td></tr>
+          <tr><td>Customization</td><td>Private label & branded packaging</td></tr>
+        </table>
+
+        <h4 style="margin-top:12px;margin-bottom:6px">Retail Packaging</h4>
+        <table>
+          <tr><th>Pack Type</th><th>Sizes</th></tr>
+          <tr><td>Standup Pouch (Zip Lock)</td><td>100 g / 250 g / 500 g / 1 kg / 2 kg</td></tr>
+          <tr><td>BOPP Handle Bag</td><td>5 kg / 10 kg / 15 kg</td></tr>
+          <tr><td>Customization</td><td>Private label, custom artwork & design</td></tr>
+        </table>
+
+        <h4 style="margin-top:12px">Container Capacity</h4>
+        <table>
+          <tr><th>Container</th><th>Approx. Capacity</th></tr>
+          <tr><td>20' FT</td><td>09–10 Metric Tons</td></tr>
+          <tr><td>40' FT</td><td>20–21 Metric Tons</td></tr>
+        </table>
+      </div>
+
+    </section>
+
+    <!-- HIGHLIGHTS & BENEFITS -->
+    <section class="card section">
+      <h3 style="margin-top:0;color:#05424a">Key Highlights</h3>
+      <ul>
+        <li>100% natural coriander seeds with strong essential oil content</li>
+        <li>Clean, uniform seeds — ideal for seasoning & industrial applications</li>
+        <li>Laboratory-checked batches for purity & aroma retention</li>
+        <li>Available in whole, split & organic grades</li>
+        <li>Suitable for culinary, herbal, pharmaceutical & cosmetic industries</li>
+      </ul>
+
+      <div class="section">
+        <h4 style="margin-bottom:8px;color:#05424a">Aromatic & Nutritional Notes</h4>
+        <p style="color:var(--muted)">
+          Coriander Seeds are valued for their digestive benefits, antioxidant properties, and aromatic oils. They play a major role in global spice blends, wellness formulas, and natural food products.
+        </p>
+      </div>
+
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
+        <span class="pill">Culinary</span>
+        <span class="pill">Food Processing</span>
+        <span class="pill">Wellness</span>
+        <span class="pill">Ayurvedic</span>
+        <span class="pill">Cosmetic</span>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div>
+        <strong>Vahin Global Exports</strong>
+        <div style="font-size:14px;color:var(--muted)">Premium Indian Spices • Global Quality Standards</div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-weight:800">Contact</div>
+        <div style="font-size:15px;color:var(--muted)">info@vahinglobalexports.com • +91-9542935425</div>
+      </div>
+    </footer>
+
+  </div>
 </body>
 </html>
