@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Premium Rice Varieties — High-Quality Indian Rice | Vahin Global Exports</title>
+  <meta name="title" content="Premium Rice Varieties Supplier — High-Quality Indian Rice | Vahin Global Exports" />
+  <meta name="description" content="Explore premium rice varieties from Vahin Global Exports. HMT Rice, Sona Masoori, Idly/Dosa Rice, Ponni, Basmati & Matta Rice — aromatic, healthy, and export-ready." />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --aqua1: #0ea5a4;
+      --aqua2: #38bdf8;
+      --dark: #073642;
+      --muted: #556677;
+      --card: #ffffff;
+      --glass: rgba(255,255,255,0.7);
+      --max-width: 1200px;
+      --radius: 14px;
+    }
+
+    /* Reset & base */
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;padding:0;background:linear-gradient(180deg,#f6fbfc 0%, #f1fbfa 100%);font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial; color:var(--dark);}
+    a{color:inherit}
+
+    .wrap{max-width:var(--max-width);margin:32px auto;padding:26px;border-radius:18px;background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.98));box-shadow:0 16px 40px rgba(6,30,40,0.08);}
+
+    /* header visual (kept minimal as requested) */
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:center;padding:18px;}
+    .brand-block{padding:18px}
+    .brand-title{display:flex;align-items:center;gap:14px}
+    .logo{width:82px;height:82px;border-radius:14px;background:linear-gradient(135deg,var(--aqua1),var(--aqua2));display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:22px;box-shadow:0 8px 20px rgba(14,162,164,0.14)}
+    h1{font-family:'Merriweather', Georgia, serif;font-size:28px;margin:0;color:var(--dark);letter-spacing:-0.2px}
+    .lead{color:var(--muted);margin-top:8px;font-size:15px}
+
+    /* company / about */
+    .company{background:linear-gradient(90deg, rgba(14,162,164,0.04), rgba(56,189,248,0.02));padding:18px;border-radius:12px;margin-top:14px}
+    .company p{margin:6px 0;color:var(--muted);line-height:1.5}
+
+    /* grid */
+    .rice-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:22px}
+    .rice-card{background:var(--card);border-radius:var(--radius);overflow:hidden;box-shadow:0 12px 28px rgba(6,30,40,0.06);transition:transform .28s, box-shadow .28s;cursor:pointer;text-decoration:none}
+    .rice-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px rgba(6,30,40,0.09)}
+    .rice-media{position:relative;aspect-ratio:16/10;overflow:hidden}
+    .rice-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
+    .rice-card:hover .rice-media img{transform:scale(1.06)}
+
+    .rice-body{padding:14px;text-align:center}
+    .rice-title{font-size:18px;margin:6px 0;color:var(--aqua1);font-weight:700}
+    .rice-desc{font-size:14px;color:var(--muted);margin:0 0 12px;font-style:normal}
+
+    /* emphasized attractive caption (uses Merriweather for flair) */
+    .rice-tagline{font-family:'Merriweather', serif;font-size:13px;color:var(--dark);margin-top:6px}
+
+    .cta-row{display:flex;gap:10px;justify-content:center;margin-top:6px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--aqua1),var(--aqua2));color:white;font-weight:700;text-decoration:none}
+    .ghost{border:1px solid rgba(7,54,66,0.06);background:transparent;padding:10px 12px;border-radius:10px}
+
+    /* packaging table */
+    .packaging{margin-top:28px;background:linear-gradient(180deg,#ffffff,#fbffff);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(8,30,33,0.03)}
+    .packaging h3{margin:0 0 12px}
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    th,td{padding:10px 12px;border-bottom:1px solid #eef7f8;text-align:left;color:var(--muted)}
+    th{color:var(--dark);font-weight:600}
+
+    /* footer */
+    footer{margin-top:26px;padding-top:18px;border-top:1px dashed rgba(8,30,33,0.04);display:flex;justify-content:space-between;align-items:center;gap:16px}
+    .contact-mini{color:var(--muted);font-size:14px}
+
+    /* modal */
+    .modal-backdrop{position:fixed;inset:0;background:rgba(4,20,22,0.45);display:none;align-items:center;justify-content:center;padding:20px}
+    .modal{background:white;border-radius:12px;max-width:880px;width:100%;box-shadow:0 20px 60px rgba(6,30,40,0.35);overflow:hidden}
+    .modal-grid{display:grid;grid-template-columns:1fr 1fr}
+    .modal-grid img{width:100%;height:100%;object-fit:cover}
+    .modal-body{padding:18px}
+    .close-btn{background:transparent;border:0;font-size:20px;cursor:pointer;color:var(--muted)}
+
+    @media(max-width:980px){
+      .hero{grid-template-columns:1fr}
+      .modal-grid{grid-template-columns:1fr}
+    }
+
+    /* accessibility */
+    .rice-card:focus{outline:3px solid rgba(14,162,164,0.14);outline-offset:4px}
+  </style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- HERO / BRAND (top contact removed as requested) -->
+  <section class="hero">
+    <div class="brand-block">
+      <div class="brand-title">
+        <div class="logo">VGE</div>
+        <div>
+          <h1>Premium Rice Varieties</h1>
+          <div class="lead">Aromatic • Healthy • Export-Grade — Curated for global markets</div>
+        </div>
+      </div>
+
+      <!-- COMPANY BLURB: includes export & packaging capabilities -->
+      <div class="company" aria-label="About Vahin Global Exports">
+        <h3 style="margin:0 0 6px">About Vahin Global Exports</h3>
+        <p>Vahin Global Exports is an experienced exporter of Indian rice varieties — supplying bulk commodities to wholesalers and customised retail packaging for supermarkets, specialty stores, and private-label brands. We handle procurement, quality checks, custom milling, private labelling and international logistics to deliver consistent, export-grade rice worldwide.</p>
+        <p><strong>Our export capabilities:</strong> FCL/LCL shipments, container stuffing, fumigation & phytosanitary documentation, buyer / supplier inspections, and flexible MOQ for bulk & retail orders.</p>
+      </div>
+    </div>
+
+    <!-- quick links / CTA on right (kept subtle) -->
+    <aside style="padding:12px;display:flex;flex-direction:column;gap:12px;align-items:flex-end">
+      <div style="text-align:right">
+        <div style="font-weight:700;color:var(--dark)">Worldwide Shipping</div>
+        <div style="color:var(--muted);font-size:14px;margin-top:6px">Bulk & retail packing • Private label services</div>
+      </div>
+      <div style="width:100%">
+        <a class="btn" href="mailto:info@vahinglobalexports.com">Request Quote</a>
+      </div>
+    </aside>
+  </section>
+
+  <!-- PRODUCTS GRID -->
+  <section class="rice-grid" aria-label="Rice products">
+
+    <!-- Each card contains data-* attributes used by the modal script below. -->
+    <a class="rice-card" tabindex="0" role="button" data-title="HMT Rice" data-desc="Premium long-grain rice with natural aroma, perfect for daily meals and gourmet dishes." data-image="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/HMT%20RICE.jpg" data-packaging='{"bulk":"PP Bag 25/50kg, BOPP Laminated 25/50kg","retail":"Standup Pouch 1/2/5kg, BOPP Handle 5/10/15kg"}'>
+      <div class="rice-media"><img loading="lazy" src="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/HMT%20RICE.jpg" alt="HMT Rice"/></div>
+      <div class="rice-body">
+        <div class="rice-title">HMT Rice</div>
+        <div class="rice-desc">Premium long-grain rice with natural aroma, perfect for daily meals and gourmet dishes.</div>
+        <div class="rice-tagline">Perfect balance of fragrance & grain integrity</div>
+        <div class="cta-row">
+          <span class="btn" data-action="open">View</span>
+          <a class="ghost" href="/product/rice/hmt-rice">Product Page</a>
+        </div>
+      </div>
+    </a>
+
+    <a class="rice-card" tabindex="0" role="button" data-title="Sona Masoori Raw Rice" data-desc="Light, fluffy, and nutritious rice ideal for South Indian delicacies and healthy meals." data-image="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Sona%20Masoori%20Raw%20Rice.jpg" data-packaging='{"bulk":"PP Bag 25/50kg","retail":"Standup Pouch 1/2/5kg"}'>
+      <div class="rice-media"><img loading="lazy" src="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Sona%20Masoori%20Raw%20Rice.jpg" alt="Sona Masoori Raw Rice"/></div>
+      <div class="rice-body">
+        <div class="rice-title">Sona Masoori Raw Rice</div>
+        <div class="rice-desc">Light, fluffy, and nutritious rice ideal for South Indian delicacies and healthy meals.</div>
+        <div class="rice-tagline">Low starch, easy digestion — kitchen favourite</div>
+        <div class="cta-row">
+          <span class="btn" data-action="open">View</span>
+          <a class="ghost" href="/product/rice/sona-masoori-raw-rice">Product Page</a>
+        </div>
+      </div>
+    </a>
+
+    <a class="rice-card" tabindex="0" role="button" data-title="Idly/Dosa Rice" data-desc="Selected for soft idlies and crispy dosas, perfect for traditional South Indian recipes." data-image="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Idly%20Dosa%20Rice.jpg" data-packaging='{"bulk":"PP Bag 25/50kg","retail":"Standup Pouch 1/2/5kg"}'>
+      <div class="rice-media"><img loading="lazy" src="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Idly%20Dosa%20Rice.jpg" alt="Idly Dosa Rice"/></div>
+      <div class="rice-body">
+        <div class="rice-title">Idly/Dosa Rice</div>
+        <div class="rice-desc">Selected for soft idlies and crispy dosas, perfect for traditional South Indian recipes.</div>
+        <div class="rice-tagline">Optimized for fermentation and texture</div>
+        <div class="cta-row">
+          <span class="btn" data-action="open">View</span>
+          <a class="ghost" href="/product/rice/idly-dosa-rice">Product Page</a>
+        </div>
+      </div>
+    </a>
+
+    <a class="rice-card" tabindex="0" role="button" data-title="1509 Basmati Rice" data-desc="Long-grain aromatic basmati, ideal for biryani, pilaf, and premium culinary dishes." data-image="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/1509BasmatiRiceRawParboiled.jpg" data-packaging='{"bulk":"PP Bag 25/50kg","retail":"BOPP Handle 5/10/15kg"}'>
+      <div class="rice-media"><img loading="lazy" src="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/1509BasmatiRiceRawParboiled.jpg" alt="1509 Basmati Rice"/></div>
+      <div class="rice-body">
+        <div class="rice-title">1509 Basmati Rice</div>
+        <div class="rice-desc">Long-grain aromatic basmati, ideal for biryani, pilaf, and premium culinary dishes.</div>
+        <div class="rice-tagline">Aromatic & elongated grains</div>
+        <div class="cta-row">
+          <span class="btn" data-action="open">View</span>
+          <a class="ghost" href="/product/rice/1509-basmati-rice-raw-parboiled-">Product Page</a>
+        </div>
+      </div>
+    </a>
+
+    <a class="rice-card" tabindex="0" role="button" data-title="1121 Basmati Rice" data-desc="Fragrant extra-long grain rice suitable for festive dishes, restaurants, and exports." data-image="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/1121BasmatiRiceRawParboiled.jpg" data-packaging='{"bulk":"PP Bag 25/50kg","retail":"BOPP Handle 5/10/15kg"}'>
+      <div class="rice-media"><img loading="lazy" src="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/1121BasmatiRiceRawParboiled.jpg" alt="1121 Basmati Rice"/></div>
+      <div class="rice-body">
+        <div class="rice-title">1121 Basmati Rice</div>
+        <div class="rice-desc">Fragrant extra-long grain rice suitable for festive dishes, restaurants, and exports.</div>
+        <div class="rice-tagline">Stretchy, fragrant grains for special meals</div>
+        <div class="cta-row">
+          <span class="btn" data-action="open">View</span>
+          <a class="ghost" href="/product/rice/1121-basmati-rice-raw-parboiled-">Product Page</a>
+        </div>
+      </div>
+    </a>
+
+    <a class="rice-card" tabindex="0" role="button" data-title="Ponni Parboiled Rice" data-desc="Soft, healthy, and flavorful rice commonly used in South Indian everyday meals." data-image="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/PONNIPARBOILEDSTEAMEDRICE.jpg" data-packaging='{"bulk":"PP Bag 25/50kg","retail":"Standup Pouch 1/2/5kg"}'>
+      <div class="rice-media"><img loading="lazy" src="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/PONNIPARBOILEDSTEAMEDRICE.jpg" alt="Ponni Parboiled Rice"/></div>
+      <div class="rice-body">
+        <div class="rice-title">Ponni Parboiled Rice</div>
+        <div class="rice-desc">Soft, healthy, and flavorful rice commonly used in South Indian everyday meals.</div>
+        <div class="rice-tagline">Balanced nutrition & easy cooking</div>
+        <div class="cta-row">
+          <span class="btn" data-action="open">View</span>
+          <a class="ghost" href="/product/rice/ponni-parboiled-steamed-rice">Product Page</a>
+        </div>
+      </div>
+    </a>
+
+    <a class="rice-card" tabindex="0" role="button" data-title="Matta Rice (Kerala Red Rice)" data-desc="Fiber-rich and naturally red, this rice adds authentic taste and nutritional value to meals." data-image="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/MATTARICEKERALAREDRICE.jpg" data-packaging='{"bulk":"PP Bag 25/50kg","retail":"Standup Pouch 1/2/5kg"}'>
+      <div class="rice-media"><img loading="lazy" src="https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/MATTARICEKERALAREDRICE.jpg" alt="Matta Rice"/></div>
+      <div class="rice-body">
+        <div class="rice-title">Matta Rice (Kerala Red Rice)</div>
+        <div class="rice-desc">Fiber-rich and naturally red, this rice adds authentic taste and nutritional value to meals.</div>
+        <div class="rice-tagline">Earthy flavor & wholesome nutrition</div>
+        <div class="cta-row">
+          <span class="btn" data-action="open">View</span>
+          <a class="ghost" href="/product/rice/matta-rice-kerala-red-rice-">Product Page</a>
+        </div>
+      </div>
+    </a>
+
+  </section>
+
+  <!-- PACKAGING & CONTAINER CAPACITY -->
+  <section class="packaging" aria-label="Packaging and container capacity">
+    <h3>Packaging & Container Capacity</h3>
+    <p style="margin:6px 0 12px;color:var(--muted)">We supply rice in both bulk and retail formats. Custom private labeling and premium branding options are available on request.</p>
+
+    <table>
+      <thead>
+        <tr><th>Category</th><th>Type / Options</th><th>Typical Sizes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Bulk Packaging</td><td>PP Bag / BOPP Laminated Bag</td><td>25 kg / 50 kg</td></tr>
+        <tr><td>Retail Packaging</td><td>Standup Pouch (Zip Lock) / BOPP Handle Bag</td><td>1 kg / 2 kg / 5 kg / 10 kg / 15 kg</td></tr>
+        <tr><td>Customization</td><td>Private labelling, premium branding, shelf-ready cartons</td><td>MOQ varies — enquire for sample & pricing</td></tr>
+        <tr><td>Container Capacity (approx.)</td><td>20ft / 40ft containers</td><td>~9-10 MT (20ft) • ~18-22 MT (40ft) depending on packing & pallets</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- FOOTER WITH CONTACT -->
+  <footer>
+    <div class="contact-mini">Contact: <a href="mailto:info@vahinglobalexports.com">info@vahinglobalexports.com</a> | <a href="tel:+919542935425">+91-9542935425</a></div>
+    <div style="color:var(--muted);font-size:13px">© Vahin Global Exports — Exporters of premium Indian rice</div>
+  </footer>
+
+</div>
+
+<!-- PRODUCT MODAL -->
+<div id="modalBackdrop" class="modal-backdrop" role="dialog" aria-hidden="true">
+  <div class="modal" role="document">
+    <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 18px;border-bottom:1px solid #f0fbfb">
+      <div style="font-weight:700;font-size:18px" id="modalTitle">Product</div>
+      <button class="close-btn" id="modalClose" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-grid">
+      <div style="min-height:220px"><img id="modalImage" src="" alt=""/></div>
+      <div class="modal-body">
+        <p id="modalDesc" style="color:var(--muted)"></p>
+        <h4 style="margin-top:12px">Packaging (examples)</h4>
+        <div id="modalPackaging" style="color:var(--muted);font-size:14px"></div>
+
+        <div style="margin-top:18px;display:flex;gap:10px">
+          <a href="mailto:info@vahinglobalexports.com" class="btn">Request Quote</a>
+          <a class="ghost" id="modalProductPage" href="#">Product Page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // modal behaviour: open with data attributes from each .rice-card
+  const backdrop = document.getElementById('modalBackdrop');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalImage = document.getElementById('modalImage');
+  const modalDesc = document.getElementById('modalDesc');
+  const modalPackaging = document.getElementById('modalPackaging');
+  const modalProductPage = document.getElementById('modalProductPage');
+  const closeBtn = document.getElementById('modalClose');
+
+  function openModal(data){
+    modalTitle.textContent = data.title;
+    modalImage.src = data.image;
+    modalImage.alt = data.title;
+    modalDesc.textContent = data.desc;
+    try{
+      const pack = JSON.parse(data.packaging);
+      let html = '<ul style="margin:8px 0 0;padding-left:18px;color:var(--muted)'>';
+      for(const k in pack){ html += `<li><strong>${k}:</strong> ${pack[k]}</li>` }
+      html += '</ul>';
+      modalPackaging.innerHTML = html;
+    }catch(e){ modalPackaging.textContent = data.packaging }
+    modalProductPage.href = '/';
+
+    backdrop.style.display = 'flex';
+    backdrop.setAttribute('aria-hidden','false');
+  }
+
+  function closeModal(){
+    backdrop.style.display = 'none';
+    backdrop.setAttribute('aria-hidden','true');
+  }
+
+  document.querySelectorAll('.rice-card').forEach(card => {
+    const btn = card.querySelector('[data-action]');
+    const data = {
+      title: card.dataset.title,
+      desc: card.dataset.desc,
+      image: card.dataset.image,
+      packaging: card.dataset.packaging
+    };
+
+    // open on both click of the button and on card Enter/Space
+    card.addEventListener('click', (e)=>{ if(e.target.dataset.action !== 'open'){ /* allow clicks on internal links */ } else openModal(data) })
+    if(btn) btn.addEventListener('click', (e)=>{ e.stopPropagation(); openModal(data) })
+
+    card.addEventListener('keydown', (e)=>{
+      if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(data) }
+    })
+  });
+
+  closeBtn.addEventListener('click', closeModal);
+  backdrop.addEventListener('click', (e)=>{ if(e.target === backdrop) closeModal() });
+  document.addEventListener('keydown', (e)=>{ if(e.key === 'Escape') closeModal() });
+</script>
+
+</body>
+</html>
