@@ -76,6 +76,7 @@ https://vge1109.github.io/vge-aboutus/HMT%20RICE.html
 Sona Masoori Raw Rice
 https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Sona%20Masoori%20Raw%20Rice.jpg
 https://vge1109.github.io/vge-aboutus/Sona%20Masoori%20Raw%20Rice.html
+https://vahinglobalexports.com/product/rice-varieties/sona-masoori-raw-rice
 --------------------------------
 Idly Dosa Rice.html
 https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Idly%20Dosa%20Rice.jpg
@@ -110,26 +111,26 @@ RICE
 https://vge1109.github.io/vge-aboutus/Rice.html
 
 
-https://vahinglobalexports.com/product/rice/hmt-rice
+https://vahinglobalexports.com/product/rice-varieties/hmt-rice
 https://vge1109.github.io/vge-aboutus/HMT%20RICE.html
 
-https://vahinglobalexports.com/product/rice/sona-masoori-raw-rice
+https://vahinglobalexports.com/product/rice-varieties/sona-masoori-raw-rice
 https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Sona%20Masoori%20Raw%20Rice.jpg
 
-https://vahinglobalexports.com/product/rice/idly-dosa-rice
+https://vahinglobalexports.com/product/rice-varieties/idly-dosa-rice
 https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/Idly%20Dosa%20Rice.jpg
 
 
-https://vahinglobalexports.com/product/rice/1509-basmati-rice-raw-parboiled-
+https://vahinglobalexports.com/product/rice-varieties/1509-basmati-rice-raw-parboiled-
 https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/1509BasmatiRiceRawParboiled.jpg
 
-https://vahinglobalexports.com/product/rice/1121-basmati-rice-raw-parboiled-
+https://vahinglobalexports.com/product/rice-varieties/1121-basmati-rice-raw-parboiled-
 https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/1121BasmatiRiceRawParboiled.jpg
 
-https://vahinglobalexports.com/product/rice/ponni-parboiled-steamed-rice
+https://vahinglobalexports.com/product/rice-varieties/ponni-parboiled-steamed-rice
 https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/PONNIPARBOILEDSTEAMEDRICE.jpg
 
-https://vahinglobalexports.com/product/rice/matta-rice-kerala-red-rice-
+https://vahinglobalexports.com/product/rice-varieties/matta-rice-kerala-red-rice-
 https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/MATTARICEKERALAREDRICE.jpg
 
 
