@@ -1,0 +1,244 @@
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="fade-in">Premium Indian Products Delivered Worldwide</h1>
+    <p class="fade-in-delay">
+      Exporting the finest Rice, Spices, Fresh Produce, Grocery Staples & Festival Items
+      with trust, quality, and global standards.
+    </p>
+    <a href="#products" class="hero-btn zoom-in">Explore Products</a>
+  </div>
+</section>
+
+<style>
+  .hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.45)),
+    url('https://raw.githubusercontent.com/VGE1109/vge-aboutus/refs/heads/main/BANNERIMAGE.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 130px 25px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0 0 15px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+  }
+
+  .hero-btn {
+    display: inline-block;
+    background: #0ea5a4;
+    padding: 14px 32px;
+    margin-top: 28px;
+    font-size: 18px;
+    border-radius: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+
+  .hero-btn:hover {
+    background: #38bdf8;
+    transform: translateY(-3px);
+  }
+
+  /* Animations */
+  .fade-in { animation: fadeIn 1.2s ease forwards; opacity: 0; }
+  .fade-in-delay { animation: fadeIn 1.6s ease forwards; opacity: 0; }
+  .zoom-in { animation: zoomIn 1.8s ease forwards; opacity: 0; }
+
+  @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
+  @keyframes zoomIn { 0% { opacity: 0; transform: scale(0.8); }
+                      100% { opacity: 1; transform: scale(1); } }
+
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 30px; }
+    .hero p { font-size: 16px; }
+  }
+</style>
+<section id="products" class="product-section">
+  <h2>Our Product Categories</h2>
+
+  <div class="grid">
+    <div class="product-card">
+      <img src="RICE_IMAGE_URL" alt="Rice Varieties">
+      <h3>Rice Varieties</h3>
+    </div>
+
+    <div class="product-card">
+      <img src="SPICES_IMAGE_URL" alt="Spices">
+      <h3>Spices (Whole & Powder)</h3>
+    </div>
+
+    <div class="product-card">
+      <img src="PULSES_IMAGE_URL" alt="Pulses">
+      <h3>Pulses & Lentils</h3>
+    </div>
+
+    <div class="product-card">
+      <img src="FLOUR_IMAGE_URL" alt="Flours">
+      <h3>Flours</h3>
+    </div>
+
+    <div class="product-card">
+      <img src="FESTIVAL_IMAGE_URL" alt="Festival Items">
+      <h3>Festival Specials</h3>
+    </div>
+
+    <div class="product-card">
+      <img src="DECOR_IMAGE_URL" alt="Decorative Items">
+      <h3>Decorative & Festive Items</h3>
+    </div>
+  </div>
+</section>
+
+<style>
+  .product-section {
+    padding: 60px 20px;
+    background: #f2fbfb;
+    text-align: center;
+  }
+
+  .product-section h2 {
+    font-size: 35px;
+    color: #0ea5a4;
+    margin-bottom: 40px;
+  }
+
+  .grid {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .product-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+    transition: 0.35s;
+  }
+
+  .product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+  }
+
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .product-card h3 {
+    padding: 15px 0;
+    color: #0ea5a4;
+  }
+</style>
+<h1 class="title">Rice Varieties</h1>
+<div class="cat-page">
+  <div class="cat-card">Sona Masoori Raw Rice</div>
+  <div class="cat-card">Ponni Parboiled Rice</div>
+  <div class="cat-card">Idly/Dosa Rice</div>
+  <div class="cat-card">Matta Rice</div>
+  <div class="cat-card">HMT Rice</div>
+  <div class="cat-card">Basmati & Non-Basmati</div>
+</div>
+<h1 class="title">Spices (Whole & Powder)</h1>
+<div class="cat-page">
+  <div class="cat-card">Red Chilli Powder</div>
+  <div class="cat-card">Turmeric Powder</div>
+  <div class="cat-card">Garam Masala</div>
+  <div class="cat-card">Cumin Seeds</div>
+  <div class="cat-card">Fennel Seeds</div>
+  <div class="cat-card">Pepper, Cloves, Cardamom</div>
+</div>
+<h1 class="title">Pulses & Lentils</h1>
+<div class="cat-page">
+  <div class="cat-card">Toor Dal</div>
+  <div class="cat-card">Moong Dal</div>
+  <div class="cat-card">Chana Dal</div>
+  <div class="cat-card">Urad Dal</div>
+  <div class="cat-card">Masoor Dal</div>
+</div>
+<h1 class="title">Flours</h1>
+<div class="cat-page">
+  <div class="cat-card">Wheat Flour</div>
+  <div class="cat-card">Rice Flour</div>
+  <div class="cat-card">Millet Flours</div>
+  <div class="cat-card">Custom Mixes</div>
+</div>
+<h1 class="title">Groceries & Staples</h1>
+<div class="cat-page">
+  <div class="cat-card">Oil Seeds</div>
+  <div class="cat-card">Jaggery</div>
+  <div class="cat-card">Pickles & Pastes</div>
+  <div class="cat-card">Instant Foods</div>
+  <div class="cat-card">Snacks & Biscuits</div>
+  <div class="cat-card">Masala Powders</div>
+</div>
+<h1 class="title">Festival Specials</h1>
+<div class="cat-page">
+  <div class="cat-card">Rakhi Festival</div>
+  <div class="cat-card">Vinayaka Chavithi</div>
+  <div class="cat-card">Navratri / Dussehra</div>
+  <div class="cat-card">Diwali</div>
+  <div class="cat-card">Ugadi / Sankranthi</div>
+  <div class="cat-card">Varalakshmi Vratham</div>
+  <div class="cat-card">Karthika Masam</div>
+</div>
+<h1 class="title">Decorative & Festive Items</h1>
+<div class="cat-page">
+  <div class="cat-card">Artificial Flower Garlands</div>
+  <div class="cat-card">Rangoli Items</div>
+  <div class="cat-card">Brass & Clay Diyas</div>
+  <div class="cat-card">Festival Combo Kits</div>
+  <div class="cat-card">Gift Packaging</div>
+  <div class="cat-card">Traditional Handicrafts</div>
+  <div class="cat-card">Door Hangings (Thoranam)</div>
+</div>
+<style>
+  .title {
+    text-align: center;
+    font-size: 35px;
+    color: #0ea5a4;
+    margin-top: 40px;
+  }
+
+  .cat-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .cat-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 18px;
+    color: #0ea5a4;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  .cat-card:hover {
+    transform: translateY(-6px);
+    background: #eaffff;
+  }
+</style>
